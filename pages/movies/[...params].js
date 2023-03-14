@@ -5,7 +5,7 @@ export default function Detail({ params }) {
 
   return (
     <>
-      <Seo title="Detail" />
+      <Seo title={title} />
       <h4>{title || "Loading..."}</h4>
     </>
   );
