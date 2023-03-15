@@ -36,6 +36,7 @@ export default function Home({ results }) {
           border-radius: 12px;
           box-shadow: rgba(0, 0, 0, 0.1) 0px 4px 12px;
           transition: transform 0.2s ease-in-out;
+          cursor: pointer;
         }
         .movie img:hover {
           transform: scale(1.05) translateY(-10px);

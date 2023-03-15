@@ -9,6 +9,8 @@ body {
   max-width: 520px;
   width: 100%;
   margin: 0 auto;
+  background-color: var(--color-background);
+  color: var(--color-primary);
 }
 a {
   color: inherit;
@@ -17,6 +19,13 @@ a {
 
 * {
   box-sizing: border-box;
+}
+
+[data-theme="dark"] {
+  --color-primary-accent: #9d86e9;
+  --color-secondary-accent: #61dafb;
+  --color-primary: #fff;
+  --color-background: #000;
 }
 
 /* @media (prefers-color-scheme: dark) {
